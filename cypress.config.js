@@ -16,7 +16,7 @@ module.exports = defineConfig({
 	   //supportFile: 'cypress/support/index.ts'
 	   //  pluginsFile: 'cypress/plugins/index.js', testFiles: '**/*.{feature,features}',
       },
-    baseUrl: 'http://localhost:4200',
+    baseUrl: 'http://localhost:50060',
 	specPattern:[ '**/*.feature','cypress/integration/*.spec.{js,feature,ts,tsx}'],
 	
 	
