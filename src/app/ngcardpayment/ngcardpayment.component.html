@@ -1,0 +1,37 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <!--<mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Log in</mat-card-title>
+    </mat-card-header>-->
+ <mat-grid-list cols="2" rowHeight="90px" rowWidth="120px">
+    <form class="example-form">
+     <!-- <mat-card-content> -->
+	 
+	   <div class="container" >
+	     <div class="row">
+			<div class="col-sm">
+        <ng-payment-card></ng-payment-card>
+		</div>
+		</div>
+		</div>
+	
+      <!--</mat-card-content>-->
+      <!--<button mat-stroked-button color="accent" class="btn-block">Payment</button>-->
+    </form>
+   </mat-grid-list>
+  <!-- </mat-card>-->
+</div>
+
+
+
+
+
+<!-- // Setting custom validation messages -->
+<!--<ng-payment-card
+  [ccNumMissingTxt]='Please provide card number'
+  [cardExpiredTxt]='Payment card has expired'>
+</ng-payment-card>
+ // Handling event emitter 
+<ng-payment-card
+  (formSaved)="processPayment(cc)">
+</ng-payment-card>--> 

@@ -1,5 +1,26 @@
 # AngularMaterialLoginTemplate
 
+ssh-keygen -t rsa -C "fairvinay@gmail.com"
+
+cat ~/.ssh/id_rsa.pub | clip
+
+cat ./id_rsa.pub | clip
+or download the file from  https://github.com/settings/keys your username fairvinay 
+
+no need of this 
+openssl rsa -des3 -in id_rsa -out id_rsa.key.new
+openssl rsa -des3 -in id_rsa -out id_rsa.key.new
+Could not read private key from id_rsa
+
+
+eval "$(ssh-agent -s)"
+ssh-add ./id_rsa
+
+ssh -T git@github.com
+then
+ git remote set-url origin git@github.com:Fairvinay/nodebootsrtapejsworker.git
+then git push -u origin master will work 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server

@@ -7,12 +7,12 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-     "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:open": "./node_modules/.bin/cypress open",
     "cypress:chrome": "./node_modules/.bin/cypress run --browser chrome --headless"
   },
   "cypress-cucumber-preprocessor": {
-  "nonGlobalStepDefinitions": true,
-   "cucumberJson": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",
       "filePrefix": "",
@@ -32,6 +32,7 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "ng-payment-card": "0.0.8",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
